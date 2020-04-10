@@ -1,4 +1,6 @@
-FROM centos
+FROM centos:7
+
+ENV container docker
 
 LABEL project="Engineer Ginger Apache Docker Image"
 LABEL maintainer "Oluyomi Sunmonu ginger@trafford-contractors.com"
